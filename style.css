@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #0497EA;
+    font-size: 14px;
+}
+
+main{
+    min-height: 100vh;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#title{
+    margin:80px auto;
+}
+
+#binary{
+    min-width: 80vw;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+#binary input{
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding:.5rem;
+    font-size: 2rem;
+    border-bottom: 2px solid white;
+    width: 70vw;
+}
+
+#binary button{
+    margin-left: 10px;
+    background-color:white;
+    color: #0497EA;
+    font-weight: 600;
+    border: none;
+    font-size: 1.2rem;
+    padding:10px 30px;
+    border-radius: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#message h2{
+    margin-top:80px;
+    margin-bottom: 40px;
+}
